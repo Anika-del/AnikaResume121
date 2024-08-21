@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Contact Form</title>
+</head>
+
+<!-- css code -->
+ <style>
+    /* @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"; */
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgb(13, 115, 211) 20%, rgb(252, 33, 99));
+    z-index: -1;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, .5);
+    box-shadow: inset 0px 0px 20px #fff;
+    width: 350px;
+    height: 480px;
+    border-radius: 20px;
+
+}
+
+.box h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 2px #333;
+    font-size: 25px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.box input {
+    display: block;
+    outline: none;
+    margin: auto;
+    margin-top: 10px;
+    padding: 8px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    width: 80%;
+    transition: .4s;
+}
+
+.box input:focus {
+    border: 2px solid rgba(255, 0, 0, .6);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.box textarea {
+    display: block;
+    outline: none;
+    margin: 20px auto;
+    padding: 5px;
+    width: 82%;
+    height: 34%;
+    resize: none;
+    border: 2px solid rgba(255, 255, 255, .5);
+    transition: .4s;
+}
+
+.box textarea:focus {
+    border: 2px solid rgba(255, 0, 0, .6);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.box button {
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .9);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 40%;
+    font-size: 14px;
+    transition: .3s;
+    /* display: none; */
+}
+
+.box button:hover {
+    width: 45%;
+    opacity: .8;
+}
+
+.box button:disabled {
+    /* cursor: not-allowed; */
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.box i {
+    margin: 20px;
+    margin-top: 25px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.box i:nth-child(1) {
+    color: #e90a72;
+}
+
+.box i:nth-child(2) {
+    color: #065eac;;
+}
+
+.box i:nth-child(3) {
+    color: #222;
+}
+
+.box i:nth-child(4) {
+    color: #f00;
+}
+
+.box i:nth-child(1):hover {
+    transform: skewX(15deg);
+}
+
+.box i:nth-child(2):hover {
+    transform: skewX(-15deg);
+}
+
+.box i:nth-child(3):hover {
+    transform: skewX(15deg);
+}
+
+.box i:nth-child(4):hover {
+    transform: skewX(-15deg);
+}
+
+@media screen and (max-width: 546px) {
+    .box {
+        width: 300px;
+        height: 360px;
+    }
+
+    .box h2 {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .box input {
+        padding: 5px;
+        width: 75%;
+    }
+
+    .box textarea {
+        width: 75%;
+        height: 28%;
+    }
+
+    .box button {
+        padding: 6px;
+        width: 120px;
+
+        font-size: 12px;
+    }
+
+    .box i {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+}
+
+footer {
+    text-align: center;
+    color: white;
+    
+    font-family: "Arial";
+    font-style: italic;
+    
+    margin-top: 550px;
+}
+ </style>
+<body>
+    <!-- for background border -->
+    <div class="bg"></div>
+
+    <div class="box">
+        <h2>Contact Form</h2>
+<!-- input fields -->
+        <input type="text" placeholder="Enter username" required>
+        <input type="email" placeholder="example@gmail.com" required>
+        <textarea cols="30" rows="10" placeholder="Enter message..." required></textarea>
+        <button class="button" ><a href="submit.html">Send message</a></button>
+    
+      </div> 
+        
+</body>
+</html>

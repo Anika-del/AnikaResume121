@@ -1,0 +1,170 @@
+<!-- Resume  Assignment for Internship PYTHRUST   link     https://anikaresume.netlify.app/               -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+   <link rel="stylesheet" href="style.css">
+
+   <!-- pdf js -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <!-- name contact and links -->
+        <div class="container">
+            <h1>Anika Patel</h1>
+            <p>Full Stack Developer | Contact Information ani474@gmail.com | Phone: (123) 456-7890</p>
+            <!-- link -->
+            <div class="profile-links">
+              <a href="https://www.linkedin.com/in/anikapatel8/" target="_blank">LinkedIn</a> |
+              <a href="https://github.com/Anika-del" target="_blank">GitHub</a> |
+              <a href="https://app.netlify.com/teams/anika-del/sites" target="_blank">Netlify</a>
+          </div>
+        </div>
+    </header>
+    <!-- profile -->
+    <div class="container">
+        <img src="profile.jpeg" alt="Profile Picture" class="profile-pic">
+
+
+        <!-- Experience Sections  -->
+        <section>
+            <h2>Experience</h2>
+            <ul>
+            <!-- First cource regarding language -->
+                <li><button class="job-title" onclick="openModal('Java Full Stack Apprenticeship')">Java Full Stack Apprenticeship</button> <a href="https://www.codesquadz.com/"> Codesquardz Noida </a> <input type="date" value="2023-09-25"> To Presend</li>
+
+            <!-- First cource regarding language -->
+                <li><!--<strong>Web Development Using PHP</strong>--><button class="job-title" onclick="openModal('Web Development Using PHP')">Web Development Using PHP</button><a href="http://www.softproindia.in/"> Softpro India Lucknow </a><input type="date" value="2020-07-15">To<input type="date" value="2020-08-30"></li>
+                <!-- Add more job experiences-->
+
+                 <!-- Pupup code here -->
+                 <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal()">×</span>
+                        <h2 id="modal-title"></h2>
+                        <p id="modal-description"></p>
+                    </div>
+                </div>
+            </ul>
+        </section>
+
+        <!-- Education section  -->
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li><strong>B.tech</strong> <a href="https://www.shiksha.com/college/lucknow-institute-of-technology-26453/reviews"> Lucknow Institute of Technology Lucknow U.P.(2022 - 2025)</a></li>
+                <li><strong>Diploma</strong> <a href="https://urise.up.gov.in/poly/4405"> Government Girls Polytechnic Gorakhpur U.P. (2018 - 2021)</a></li>
+                <!-- Add more educational background-->
+            </ul>
+        </section>
+
+        <!-- Skills section -->
+        <section>
+            <h2>Skills</h2>
+            <ul>
+              <li>HTML CSS <span class="skill-rating"> ★★★★☆</span></li>
+              <li>JavaScript <span class="skill-rating"> ★★★★☆</span></li>
+              <li>Reach.js Angular <span class="skill-rating"> ★★★☆☆</span></li>
+              <li>Backend Core java Advance java and java framework Java <span class="skill-rating"> ★★★☆☆</span> </li>
+                <!-- Add more skills-->
+            </ul>
+        </section>
+      
+      <!-- Hobbies/Interests section -->
+      <section id="hobbies">
+        <h2>Hobbies/Interests</h2>
+        <ul>
+            <li>Building Logic/Coding</li>
+            <li>Playing Games</li>
+            <!-- Add more hobbies or interests -->
+        </ul>
+        <button onclick="toggleHobbies()">Show/Hide Hobbies</button>
+    </section>
+
+    <section>
+      <h2>Portfolio</h2>
+      <div class="project">
+          <img src="project1.jpg" alt="Project 1" class="thumbnail" class="smaller" class="centered">
+          <p>Project 1: College Website using HTML CSS JS.</p>
+          <a href="https://astounding-pavlova-9b2d7d.netlify.app/">Click here for Learn more</a>
+      </div>
+      <div class="project">
+        <img src="project2.jpg" alt="Project 2" class="thumbnail" class="smaller" class="centered">
+        <p>Project 2: Form using html css.</p>
+        <a href="https://animationform12.netlify.app/"> Click here for Learn more</a>
+    </div>
+      <!-- Add more projects as needed -->
+  </section>
+
+
+        <section>
+          <h2>Contact Information</h2>
+          <ul>
+              <li>Email: your.email@example.com</li>
+              <li>Phone: +1 (123) 456-7890</li>
+              <li><a href="https://www.linkedin.com/in/anikapatel8">LinkedIn Profile</a></li>
+          </ul>
+          <!-- contact Info -->
+      </section>
+      <section>
+        <h2>Contact Form:</h2>
+        <div>
+          <a href="contact.html" target="_blank">Click for view contact form</a> |
+      </section>
+
+      <!-- Navbar-->
+
+      <section style="height: 150px;">
+        <h2>Simple Navigation</h2>
+        <div id="container1">
+            <!-- <div id="square"></div> -->
+            <div id="stretcher"></div>
+      <nav>
+        <ul>
+            <li>Java Trainning at codesquadz <a href="https://www.codesquadz.com/">Experience</a></li>
+            <li>My website <a href="https://anika-portfoli.netlify.app/">Website</a></li>
+            <li>My College <a href="https://www.shiksha.com/college/lucknow-institute-of-technology-26453/reviews">Education</a></li>
+            <!-- Add links for other sections -->
+        </ul>
+    </nav>
+</div>
+</section>
+
+<!-- resume download  -->
+<section>
+  <h2>Download Resume</h2>
+  <p><a href="your-resume.pdf" download>Download PDF</a></p>
+</section>
+<section>
+  <h2>References</h2>
+  <ul>
+      <li>Reference 1: "."</li>
+      <li>Reference 2: "."</li>
+      <!-- Add more references as needed -->
+  </ul>
+</section>
+
+<!-- Location map -->
+<section>
+    <h2>Location Map</h2>
+    CodeSquadz<br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.0881989625977!2d77.37416227429331!3d28.627118584328684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef60526c0929%3A0xe3abc75d65b999ff!2sCodeSquadz%20-%20IT%20Training%20by%20Manish%20Bhatia%20Sir!5e0!3m2!1sen!2sin!4v1724225740598!5m2!1sen!2sin" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+  <!-- Dynamic PDF Generation -->
+  <section>
+  <h2>Dynamic PDF Generation</h2>
+  <input type="button" value="Create PDF" onclick="generatePDF()">
+  </section>
+</div>
+
+
+
+<!-- include js file -->
+    <script src="main.js"></script>
+</body>
+</html>
