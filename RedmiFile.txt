@@ -1,0 +1,21 @@
+Header Section:-
+My name, contact information, and profile links are neatly displayed.
+The LinkedIn, GitHub, and Netlify links allow visitors to explore your professional profiles.
+
+Experience Section:-
+You’ve listed your work experiences, including the “Java Full Stack Apprenticeship” at Codesquardz Noida.
+The interactive buttons for each job title are a nice touch. When clicked, they open a modal with additional details.
+
+Education Section:-
+I've included my educational background, such as my B.Tech from Lucknow Institute of Technology and your diploma from Government Girls Polytechnic Gorakhpur.
+
+Skills Section:-
+My skills are clearly presented, along with skill ratings.
+It’s great to see a mix of frontend (HTML, CSS, JavaScript, Angular) and backend (Java) skills.
+
+Hobbies/Interests Section:-
+I’ve shared my interests in building logic/coding and playing games.
+The “Show/Hide Hobbies” button adds interactivity.
+
+Portfolio Section:-
+I’ve mentioned a portfolio, but the image for “Project 1” to incomplete my resume.
